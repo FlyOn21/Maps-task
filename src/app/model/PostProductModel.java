@@ -35,10 +35,9 @@ public class PostProductModel {
              );
              products.put(newId, product);
              workWithCsv.writeCsv(products);
-             isCreated = true;
          } catch (IOException e) {
              e.printStackTrace();
          }
-         return isCreated;
+         return !isCreated;
     }
 }
