@@ -11,7 +11,7 @@ public class DeleteProductView {
     public void deleteProductProcessing(Scanner scanner) {
         System.out.println("Input product name to delete: ");
         String name = scanner.nextLine();
-        if (!ProductIsExist.isExist(name)) {
+        if (!ProductIsExist.isExistProduct(name)) {
             System.out.println("Product with name " + name + " is not exist!");
             return;
         }

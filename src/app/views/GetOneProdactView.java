@@ -11,7 +11,7 @@ public class GetOneProdactView {
     public void getOneProductProcessing(Scanner scanner) {
         System.out.println("Enter product name: ");
         String name = scanner.nextLine();
-        if (!ProductIsExist.isExist(name)) {
+        if (!ProductIsExist.isExistProduct(name)) {
             System.out.println("Product with name " + name + " not exist");
             return;
         }

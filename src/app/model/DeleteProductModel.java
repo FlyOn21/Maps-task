@@ -18,8 +18,7 @@ public class DeleteProductModel {
             if (products.containsKey(hash)) {
                 products.remove(hash);
                 workWithCsv.writeCsv(products);
-                isDeleted = true;
-                return isDeleted;
+                return !isDeleted;
             }
         } catch (IOException e) {
             e.printStackTrace();

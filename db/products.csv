@@ -3,3 +3,4 @@ id, productName, quantity, price, currency, description, isSold, createTimestamp
 336f9727-cc44-4bb3-baee-7b57df8ecdba,Pineapple,15,150.0,USD,Best pineapple,false,1709893794,1709893794
 3f175eca-71b7-4c90-8a05-77f3d6d5fee4,Pear,4,80.0,USD,Best pear,false,1709894067,1709894067
 1958ca0e-c2d6-4b3b-9397-d1adcb04a8fd,Banana,6,50.0,USD,Best banana,false,1709894125,1709925486
+3d4635f8-b3bf-4272-9d70-7a676ac0d54d,test,3,55.0,USD,qwertyu,false,1709926164,1709926249

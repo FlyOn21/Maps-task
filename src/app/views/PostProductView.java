@@ -23,7 +23,6 @@ public class PostProductView {
                     price = Double.parseDouble(scanner.nextLine());
                 } catch (NumberFormatException e) {
                     System.out.println("Invalid price");
-                    continue;
                 }
             } else if (description == null) {
                 System.out.println("Enter product description: ");
@@ -34,7 +33,6 @@ public class PostProductView {
                     quantity = Integer.parseInt(scanner.nextLine());
                 } catch (NumberFormatException e) {
                     System.out.println("Invalid quantity");
-                    continue;
                 }
             } else {
                 boolean isCreated = postProductModel.createNewProduct(name, description, price, quantity);

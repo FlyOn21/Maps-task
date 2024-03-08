@@ -39,7 +39,7 @@ public class PutProductView {
     private void updateProductProcessing(Scanner scanner, String attributeName) {
         System.out.println("Enter product name: ");
         String name = scanner.nextLine();
-        if(!ProductIsExist.isExist(name)) {
+        if(!ProductIsExist.isExistProduct(name)) {
             System.out.println("Product with name " + name + " not exist");
             return;
         }

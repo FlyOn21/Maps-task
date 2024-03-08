@@ -62,7 +62,6 @@ public class WorkWithCsv {
             writer.write(header);
             writer.write("\n");
             for (Map.Entry<String, Product> entry : products.entrySet()) {
-                String key = entry.getKey();
                 Product product = entry.getValue();
                 writer.write(toCsvLine(product));
                 writer.write("\n");
